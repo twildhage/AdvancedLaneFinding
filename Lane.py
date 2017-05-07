@@ -1,6 +1,9 @@
 from collections import deque
+import matplotlib.pyplot as plt
 import numpy as np
 import cv2
+
+
 class Lane():
     
     def __init__(self, nb_memory_items):
