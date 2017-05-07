@@ -92,7 +92,9 @@ The result of this step can be seen in the following image.
 ![alt text][image20]
 ### Radius and Vehicle Position
 The radius is calculated based on the average fit parameters. It is calculated according to the formula given in the lecture.
+
 ![alt text][equation1]
+
 This equation becomes singular when A goes to zero. This happens when the curvature goes to zero, hence for straight lines. Therefore the displayed radius saturates at 10000 meters.
 
 The vehicle position is calculated by taking the distance between the lines, subtracting the center pixel and deviding the result by two:
@@ -105,10 +107,7 @@ This way negative (positive) values correspond to the vehicle being left (right)
 
 ### Project Video
 
-Here's a [link to my video result](./project_video_processed.mp4)
-[Video on Youtube](https://www.youtube.com/watch?v=LP39pNEHQD4)
-
----
+Here is a link to the final [Video on Youtube](https://www.youtube.com/watch?v=LP39pNEHQD)
 
 ### Discussion
 
