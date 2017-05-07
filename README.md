@@ -107,7 +107,7 @@ This way negative (positive) values correspond to the vehicle being left (right)
 
 ### Project Video
 
-Here is a link to the final [Video on Youtube](https://www.youtube.com/watch?v=LP39pNEHQD)
+Here is a link to the final [Video on Youtube](https://www.youtube.com/watch?v=LP39pNEHQD4)
 
 ### Discussion
 
