@@ -321,7 +321,6 @@ class Lane():
         for key in self.best_xfitted:
             xlane[key] = self.best_xfitted[key][-1]
         
-        self.vehicle_position = ((xlane['right']  - xlane['left']) - xcenter)*self.xmeter_per_pixel
-        
+        self.vehicle_position = ((xlane['right'] + xlane['left']) / 2 - xcenter) * self.xmeter_per_pixel
 
             

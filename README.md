@@ -97,9 +97,9 @@ The radius is calculated based on the average fit parameters. It is calculated a
 
 This equation becomes singular when A goes to zero. This happens when the curvature goes to zero, hence for straight lines. Therefore the displayed radius saturates at 10000 meters.
 
-The vehicle position is calculated by taking the distance between the lines, subtracting the center pixel and deviding the result by two:
+The vehicle position is calculated by taking half the distance between the lines, subtracting the center pixel and dividing the result by two:
 ```python
-self.vehicle_position = ((xlane['right']  - xlane['left']) - xcenter)*self.xmeter_per_pixel
+self.vehicle_position = ((xlane['right']  - xlane['left'])/2 - xcenter)*self.xmeter_per_pixel
 ```
 This way negative (positive) values correspond to the vehicle being left (right) from the center of the lane.
 
@@ -107,7 +107,7 @@ This way negative (positive) values correspond to the vehicle being left (right)
 
 ### Project Video
 
-Here is a link to the final [Video on Youtube](https://www.youtube.com/watch?v=LP39pNEHQD4)
+Here is a link to the final [Video on Youtube](https://www.youtube.com/watch?v=q07Gou-b_qg)
 
 ### Discussion
 
